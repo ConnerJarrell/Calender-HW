@@ -1,0 +1,91 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    background-color: #E4ECB1;
+   
+}
+  
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color:white;
+}
+  
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+  
+textarea{
+    background: #DBB08A;
+    opacity: 0.5;
+    border: none;
+    resize: none;
+    color: white;
+    border-left: 1px solid black;
+    padding: 10px;
+    border-bottom: 2px dotted grey;
+}
+  
+header {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+  
+.description{
+    white-space: pre-wrap;
+}
+  
+.time-block{
+    text-align: center;
+    border-radius: 15px;
+}
+  
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+}
+  
+.hour {
+    background-color:#DBB6C4;
+    color: #000000;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom: 2px dotted grey;
+}
+  
+.past {
+    background-color: #da2d2d;
+    color: white;
+}
+  
+.present {
+    background-color: #40dab8;
+    color: white;
+}
+  
+.future {
+    background-color: #199e19;
+    color: white;
+}
+  
+.saveBtn {
+    border-left: 1px solid black;
+    border-bottom: 2px dotted grey;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #CCCAC6;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+}
+  
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
