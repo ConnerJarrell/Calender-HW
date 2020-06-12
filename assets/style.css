@@ -19,7 +19,7 @@ p{
 }
   
 textarea{
-    background: rgb(250, 223, 69);
+    background: rgb(228, 113, 113);
     opacity: 0.5;
     border: none;
     resize: none;
@@ -60,7 +60,7 @@ header {
 }
   
 .past {
-    background-color: #da2d2d;
+    background-color: #6b0707;
     color: white;
 }
   
