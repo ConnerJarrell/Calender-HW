@@ -47,7 +47,7 @@ $('textarea').keyup(function () {
 
 
 
-
+//  function is not working, attempting to fix
 function findTime() {
     for (var i = 0; i < hoursArray.length; i++){
         var realTime = moment().hour(9 + i);
@@ -64,7 +64,7 @@ function findTime() {
 findTime();
 
     
-$('clear-contents').click(function () {
+$('#clear-contents').click(function () {
     localStorage.clear();
     location.reload();
 });
